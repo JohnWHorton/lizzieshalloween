@@ -1,4 +1,4 @@
-/* this is lizzies halloween story*/
+/* this is lizzies halloween story in branch master*/
 var storyChapters = [
     {},
     {
