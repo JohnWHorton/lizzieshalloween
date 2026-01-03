@@ -1,4 +1,4 @@
-/* lizzies halloween story*/
+/* this is lizzies halloween story*/
 var storyChapters = [
     {},
     {
