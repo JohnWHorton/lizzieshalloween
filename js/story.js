@@ -881,10 +881,8 @@ function speakText() {
     // Optional: choose a specific voice if available
     const voices = speechSynthesis.getVoices();
     const gentleVoice = voices.find(v =>
-        v.name.toLowerCase().includes("child") ||
-        v.name.toLowerCase().includes("girl") ||
-        v.name.toLowerCase().includes("young")
+        v.name.toLowerCase().includes("“Google UK English Male”")
     );
-
+    utterance.voice = gentleVoice || voices[0];
     speechSynthesis.speak(utterance);
 }
