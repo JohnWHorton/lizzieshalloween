@@ -829,6 +829,16 @@ The fairy hovered above her, sprinkling a soft shimmer of light that felt like w
 var id = getParameter("id");
 var chapter = storyChapters[id];
 
+document.getElementById("toggleBtn").addEventListener("click", function () {
+  const box = document.getElementsByClassName("menu");
+
+  if (box.style.display === "none" || box.style.display === "") {
+    box.style.display = "block";
+  } else {
+    box.style.display = "none";
+  }
+});
+
 function getParameter(id) {
     let params = new URLSearchParams(window.location.search);
     id = params.get(id);

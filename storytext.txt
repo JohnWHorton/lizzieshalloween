@@ -338,8 +338,6 @@ The wooden train settled on the bedside table and whispered,
 
 The fairy hovered above her, sprinkling a soft shimmer of light that felt like warm snowflakes.
 “Sleep now,” she said. “You’ve done enough for one night.”
-=======
-
 
 	Elizabeth’s Halloween Surprise
  
@@ -681,4 +679,3 @@ The wooden train settled on the bedside table and whispered,
 
 The fairy hovered above her, sprinkling a soft shimmer of light that felt like warm snowflakes.
 “Sleep now,” she said. “You’ve done enough for one night.”
->>>>>>> 9f473adda41ca388dc2ef0a05cb0ff5f70a57d1d
