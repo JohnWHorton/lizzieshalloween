@@ -82,6 +82,22 @@ img {
 
 }
 
+button {
+  padding: 10px 18px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;margin: 1rem;
+}
+button:hover {
+  background-color: #357ab8;
+}
+button:active {
+  background-color: #2d6394;
+}
+
 nav {
   margin-top: 10px;
   width: auto;
