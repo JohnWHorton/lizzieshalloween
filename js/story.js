@@ -17,7 +17,7 @@ Then Daddy came down the stairs with a big red cape and shiny teeth.
 Elizabeth gasped. “Daddy! Your teeth are broken!”
 Daddy knelt down. “They’re pretend teeth. I’m being a vampire tonight.”
 
-Elizabeth huged her baby doll tighter. This was getting very confusing.
+Elizabeth hugged her baby doll tighter. This was getting very confusing.
 
 And then Will jumped out from behind the sofa wearing a skeleton suit.
 “Boo!” he shouted.
