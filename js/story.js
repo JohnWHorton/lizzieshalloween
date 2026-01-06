@@ -1,4 +1,4 @@
-/* this is lizzies halloween story in branch master*/
+/* branch master*/
 var storyChapters = [
     {},
     {
@@ -11,7 +11,7 @@ Mummy walked out of the bedroom wearing a long black dress and a pointy hat.
 
 “Mummy?” Elizabeth whispered. “Why you look… spooky?”
 
-Mummy laughed softly. “It’s just a costume, sweetheart. I’m pretending to be a witch.”
+Mummy laughed softly. “It’s just a costume sweetheart. I’m pretending to be a witch.”
 Elizabeth wasn’t sure she liked that. Mummy didn’t feel like a witch. Mummy felt like… well… Mummy.
 
 Then Daddy came down the stairs with a big red cape and shiny teeth.
@@ -377,12 +377,11 @@ The fairy hovered above her, sprinkling a soft shimmer of light that felt like w
         previous: "loadChapter(6)",
         nextdesc: "",
         next: "",
-    },
-    {}
+    }
 ];
 
 var id = getParameter("id");
-var chapter = storyChapters[id];
+// var chapter = storyChapters[id - 1];
 
 function getParameter(id) {
     let params = new URLSearchParams(window.location.search);
@@ -396,7 +395,7 @@ function loadChapter(id) {
         speechSynthesis.cancel();
     }
 
-    var chapter = storyChapters[id];
+    var chapter = storyChapters[id - 1];
 
     //   if (!chapter) return;
 
@@ -409,7 +408,7 @@ function loadChapter(id) {
     if (id == 1) {
         var navbtns = `<a href="index.html">Back to Index</a> |
     <a href="#" onclick="`+ chapter.next + `">` + chapter.nextdesc + `</a>`;
-    } else if (id == 7) {
+    } else if (id == storyChapters.length) {
         var navbtns = `<a href="#" onclick="` + chapter.previous + `">` + chapter.previousdesc + `</a> |
             <a href="index.html">Back to Index</a>`;
     } else {
@@ -702,7 +701,7 @@ And with that, the adventure truly began.`,
         id: 6,
         title: "Chapter 6: Elizabeth and the Gremlin Hunt",
         image: '<img src="images/chapter6.png" alt="Elizabeth and the Gremlin Hunt">',
-        storytext: `he fairy fluttered beside Elizabeth’s cheek, her wings glowing brighter now.
+        storytext: `The fairy fluttered beside Elizabeth’s cheek, her wings glowing brighter now.
 
 “We must hurry,” she whispered. “The Gremlins are downstairs, and they’re already causing trouble.”
 
@@ -822,8 +821,7 @@ The fairy hovered above her, sprinkling a soft shimmer of light that felt like w
         previous: "loadChapter(6)",
         nextdesc: "",
         next: "",
-    },
-    {}
+    }
 ];
 
 var id = getParameter("id");
@@ -850,11 +848,12 @@ function loadChapter(id) {
     document.getElementById("storytext").innerHTML = chapter.storytext;
 
     // Update the text
-
+    // const chaptercount = storyChapters.length;
+    
     if (id == 1) {
         var navbtns = `<a href="index.html">Back to Index</a> |
     <a href="#" onclick="`+ chapter.next + `">` + chapter.nextdesc + `</a>`;
-    } else if (id == 7) {
+    } else if (id == storyChapters.length - 1) {
         var navbtns = `<a href="#" onclick="` + chapter.previous + `">` + chapter.previousdesc + `</a> |
             <a href="index.html">Back to Index</a>`;
     } else {
