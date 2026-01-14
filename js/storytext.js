@@ -11,7 +11,7 @@ Mummy walked out of the bedroom wearing a long black dress and a pointy hat.
 
 “Mummy?” Elizabeth whispered. “Why you look… spooky?”
 
-Mummy laughed softly. “It’s just a costume, sweetheart. I’m pretending to be a witch.”
+Mummy laughed softly. “It’s just a costume sweetheart. I’m pretending to be a witch.”
 Elizabeth wasn’t sure she liked that. Mummy didn’t feel like a witch. Mummy felt like… well… Mummy.
 
 Then Daddy came down the stairs with a big red cape and shiny teeth.
@@ -89,8 +89,7 @@ Slowly, she let go of Mummy’s leg.
 
 “That’s right,” Mummy said, giving her hand a squeeze.
 And even though Elizabeth still felt a little scared sometimes, she kept going — because she wasn’t alone. 
-She had Mummy, Daddy, and Will. And her pumpkin costume made her feel just brave enough.
-`,
+She had Mummy, Daddy, and Will. And her pumpkin costume made her feel just brave enough.`,
         previousdesc: "Previous chapter",
         previous: "loadChapter(1)",
         nextdesc: "Next Chapter",
