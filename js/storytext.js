@@ -1,4 +1,4 @@
-var storyname = "Little Red in Brooklyn";
+var storyname = "Elizabeth's Halloween Adventure";
 
 var storyChapters = [
     {
