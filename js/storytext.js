@@ -347,8 +347,8 @@ The fairy smiled.
     },
     {
         id: 7,
-        title: "TBack to bed",
-        image: '<img src="images/chapter7.png" alt="The Community Arrives">',
+        title: "Back to bed",
+        image: '<img src="images/chapter7.png" alt="Back to bed">',
         storytext: `The fairy fluttered beside Elizabeth as they climbed the stairs, her glow soft and warm like a night‑light that could fly.
 
 Teddy walked proudly at Elizabeth’s side.
